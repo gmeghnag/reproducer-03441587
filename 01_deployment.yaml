@@ -13,7 +13,7 @@ metadata:
     healing-controller.rcpha/restart: exclude
     helm.sh/chart: healing-controller-7.11.3
   name: nes-healing-controller
-  namespace: cran2testing
+  namespace: cran2
 spec:
   progressDeadlineSeconds: 600
   replicas: 1
