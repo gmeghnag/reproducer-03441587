@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   annotations:
     meta.helm.sh/release-name: neshc
-    meta.helm.sh/release-namespace: cran2testing
+    meta.helm.sh/release-namespace: cran2
   generation: 1
   labels:
     app.kubernetes.io/instance: neshc
