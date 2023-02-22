@@ -11,7 +11,7 @@ metadata:
     app.kubernetes.io/version: "1.0"
     helm.sh/chart: healing-controller-7.11.3
   name: healing-controller
-  namespace: cran2testing
+  namespace: cran2
 spec:
   internalTrafficPolicy: Cluster
   ipFamilies:
