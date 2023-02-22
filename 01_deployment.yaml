@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   annotations:
     meta.helm.sh/release-name: neshc
-    meta.helm.sh/release-namespace: cran2
+    meta.helm.sh/release-namespace: cran2testing
   generation: 1
   labels:
     app.kubernetes.io/instance: neshc
@@ -13,7 +13,7 @@ metadata:
     healing-controller.rcpha/restart: exclude
     helm.sh/chart: healing-controller-7.11.3
   name: nes-healing-controller
-  namespace: cran2
+  namespace: cran2testing
 spec:
   progressDeadlineSeconds: 600
   replicas: 1

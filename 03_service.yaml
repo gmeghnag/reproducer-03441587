@@ -3,7 +3,7 @@ kind: Service
 metadata:
   annotations:
     meta.helm.sh/release-name: neshc
-    meta.helm.sh/release-namespace: cran2
+    meta.helm.sh/release-namespace: cran2testing
   labels:
     app.kubernetes.io/instance: neshc
     app.kubernetes.io/managed-by: Helm
@@ -11,11 +11,8 @@ metadata:
     app.kubernetes.io/version: "1.0"
     helm.sh/chart: healing-controller-7.11.3
   name: healing-controller
-  namespace: cran2
+  namespace: cran2testing
 spec:
-  clusterIP: 172.30.154.138
-  clusterIPs:
-    - 172.30.154.138
   internalTrafficPolicy: Cluster
   ipFamilies:
     - IPv4
